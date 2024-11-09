@@ -10,7 +10,7 @@
 </script>
 
 <h1>Weather</h1>
-
+{weather}
 {#if weather}
   <h2>Hava Durumu: {weather.current.temp_c}°C</h2>
   <h3>Durum: {weather.current.condition.text}</h3>
